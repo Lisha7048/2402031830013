@@ -1,0 +1,247 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* SHARED SLIDE STYLING */
+.slide {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;  /* Center all content */
+}
+
+/* SLIDE BACKGROUND COLORS */
+#slide1 {
+  background: url('background.png') no-repeat center center/cover;
+}
+#slide2, #slide3, #slide4, #slide5 {
+  background-color: #233F23;
+}
+
+/* SLIDE TITLES */
+.slide-title {
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* ARTISAN IMAGES (Slide 2) */
+.artisan-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.artisan-card, .category-card {
+  text-align: center;
+  color: #fff;
+}
+
+.artisan-card img, .circle-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+/* CATEGORY IMAGES (Slide 3) */
+.category-container {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* SLIDE 4 TEXT COLOR FIX */
+#slide4 p {
+  color: black !important;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+/* CLOTH IMAGE FOR SLIDE 4 */
+.cloth-container {
+  margin-top: 20px;
+}
+
+.cloth-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+/* PRODUCTS CONTAINER (SLIDE 5) */
+.products-container {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin-top: 20px;
+}
+
+.product-card {
+  width: 45%;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.product-card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.product-card p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.price {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.discount {
+  font-size: 16px;
+  color: #ffcc00;
+}
+
+/* BUY BUTTON */
+.buy-btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.buy-btn:hover {
+  background: #0056b3;
+}
+
+/* BOTTOM BUTTON (Join as an Artisan) */
+.bottom-button {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  background: #007bff;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
+/* SLIDE 7 BACKGROUND */
+#slide7 {
+  background-color: #233F23;
+}
+
+/* CONTENT BOX */
+.content-box {
+  background-color: #E0B97B;
+  padding: 20px;
+  width: 60%;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.content-box h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+.content-box p {
+  font-size: 18px;
+  color: black;
+  margin-top: 10px;
+}
+/* SLIDE 8 BACKGROUND */
+#slide8 {
+  background-color: #233F23;
+}
+
+#slide6 {
+  background-color: #233F23;
+}
+
+/* FORM STYLING */
+.artisan-form {
+  width: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.artisan-form label {
+  display: block;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.artisan-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+.artisan-form button {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.artisan-form button:hover {
+  background: #0056b3;
+}
+
