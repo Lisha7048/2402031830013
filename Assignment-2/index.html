@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Slides 1-6</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Slide 1 -->
+  <div class="slide" id="slide1">
+    <div class="top-button">
+      <a href="#slide2" class="btn">Explore Artisan</a>
+    </div>
+  <!--  <div class="title-section">
+      <h2>Indian Handicraft</h2>
+      <p>From the homes of experienced craftsmen</p>
+    </div>-->
+  </div>
+
+  <!-- Slide 2 -->
+  <div class="slide" id="slide2">
+    <div class="top-button">
+      <a href="#slide3" class="btn">Shop by Category</a>
+    </div>
+    <div class="title-section">
+      <h2>SHOP BY ARTISANS</h2>
+      <p>Amit ji, Suman ji, Rina</p>
+    </div>
+    <div class="artisan-container">
+      <div class="artisan-card">
+        <img src="amit.png" alt="Amit ji" />
+        <p>Amit ji</p>
+      </div>
+      <div class="artisan-card">
+        <img src="suman.png" alt="Suman ji" />
+        <p>Suman ji</p>
+      </div>
+      <div class="artisan-card">
+        <img src="rina.png" alt="Rina" />
+        <p>Rina</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide 3 -->
+  <div class="slide" id="slide3">
+    <h2 class="slide-title">SHOP BY CATEGORY</h2>
+    <div class="category-container">
+      <div class="category-card">
+        <img src="jars.png" alt="Jars" class="circle-img" />
+        <p>JARS</p>
+      </div>
+      <div class="category-card">
+        <a href="#slide4">
+          <img src="cloths.png" alt="Cloths" class="circle-img" />
+          <p>CLOTHS</p>
+        </a>
+      </div>
+      <div class="category-card">
+        <img src="spicebox.png" alt="Spice Box" class="circle-img" />
+        <p>SPICE BOX</p>
+      </div>
+    </div>
+    <div class="bottom-button">
+      <a href="#slide5" class="btn">Click to Buy</a>
+    </div>
+  </div>
+
+  <!-- Slide 4 -->
+  <a href="#slide5">
+    <div class="slide" id="slide4">
+      <h2 class="slide-title">Handmade Textiles</h2>
+      <div class="cloth-container">
+        <img src="cloths.png" alt="Handmade Cloth" class="cloth-img">
+      </div>
+      <div class="cloth-details">
+        <p>
+          Handmade textiles are pieces of art crafted out of skilled craftsmanship,  
+          with a personal touch delving with raw materials leading to the expressions of individuality.  
+          It's a platform where artistry meets tradition.
+        </p>
+      </div>
+    </div>
+  </a>
+
+  <!-- Slide 5 -->
+  <div class="slide" id="slide5">
+    <div class="products-container">
+      <!-- Spice Box -->
+      <div class="product-card">
+        <img src="spicebox.png" alt="Spice Box">
+        <p>Spice box with spoon in wood</p>
+        <p class="price">Rs.995 <span class="discount">(43% off)</span></p>
+        <button class="buy-btn">BUY</button>
+      </div>
+
+      <!-- Hand Printed Ceramic Jars -->
+      <div class="product-card">
+        <img src="jars.png" alt="Ceramic Jars">
+        <p>Hand printed ceramic jars</p>
+        <p class="price">Rs.100 <span class="discount">(50% off)</span></p>
+        <button class="buy-btn">BUY</button>
+      </div>
+    </div>
+
+    <!-- Join as an Artisan Button -->
+    <div class="bottom-button">
+      <a href="#slide6" class="btn">Join as an Artisan</a>
+    </div>
+  </div>
+
+  <!-- Slide 6 (Clickable Area to Slide 7) -->
+<a href="#slide7">
+  <div class="slide" id="slide6">
+    <h2 class="slide-title">Join as an Artisan</h2>
+    
+    <!-- Artisan Signup Form -->
+    <form class="artisan-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name" required>
+
+      <label for="category">Category:</label>
+      <input type="text" id="category" placeholder="Enter category" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter your email" required>
+
+      <label for="experience">Experience (Years):</label>
+      <input type="number" id="experience" placeholder="Enter experience years" required>
+
+      <button type="submit" class="btn">Submit</button>
+    </form>
+  </div>
+</a>
+
+<!-- Slide 7 -->
+<div class="slide" id="slide7">
+  <h2 class="slide-title">Latest Articles & Stories</h2>
+
+  <!-- Content Box -->
+  <div class="content-box">
+    <h3>Traditional Handicrafts: A Journey Through Time</h3>
+    <p>
+      Handicrafts represent the rich cultural heritage of various regions,  
+      blending artistry and tradition to create unique handmade products.  
+      Explore the world of skilled artisans and their timeless creations.
+    </p>
+  </div>
+
+  <!-- FAQ Button -->
+  <div class="bottom-button">
+    <a href="#slide8" class="btn">FAQ</a>
+  </div>
+</div>
+<!-- Slide 8 -->
+<div class="slide" id="slide8">
+  <h2 class="slide-title">Frequently Asked Questions</h2>
+
+  <div class="content-box">
+    <h3>What makes handmade products different?</h3>
+    <p>
+      Handmade products carry a unique touch, crafted with skill and dedication.  
+      Unlike mass-produced items, each handmade piece tells a story and supports local artisans.
+    </p>
+  </div>
+
+  <!-- Back to Home Button -->
+  <div class="bottom-button">
+    <a href="#slide1" class="btn">Back to Home</a>
+  </div>
+</div>
+
+
+</body>
+</html>
